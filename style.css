@@ -1,0 +1,71 @@
+/* General Styles */
+body {
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+/* Header Styling */
+header {
+    background: #007acc;
+    color: white;
+    padding: 40px 10px; /* Increased padding for emphasis */
+    text-align: center;
+    border-bottom: 3px solid #005999; /* Add a border for separation */
+}
+
+header h1 {
+    margin: 0;
+    color: white;
+    font-size: 2.5rem; /* Increase font size for the title */
+    text-transform: uppercase; /* Make the title all caps */
+    letter-spacing: 2px; /* Add letter spacing for a polished look */
+}
+
+/* Navigation Styling */
+nav ul {
+    list-style: none;
+    padding: 0;
+    background: #f4f4f4;
+    overflow: hidden;
+    margin: 0;
+    border-bottom: 1px solid #ddd; /* Add a bottom border for clarity */
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    padding: 10px 20px;
+    display: inline-block;
+}
+
+nav ul li a:hover {
+    background: #007acc;
+    color: white;
+}
+
+/* Main Content Styling */
+main {
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+}
+
+h1, h2 {
+    color: #007acc;
+}
+
+/* Footer Styling */
+footer {
+    text-align: center;
+    background: #333;
+    color: white;
+    padding: 10px;
+    margin-top: 20px;
+}
